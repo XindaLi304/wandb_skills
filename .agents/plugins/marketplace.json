@@ -1,0 +1,20 @@
+{
+  "name": "wandb-skills-marketplace",
+  "interface": {
+    "displayName": "Weights & Biases Skills"
+  },
+  "plugins": [
+    {
+      "name": "wandb-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Data & Analytics"
+    }
+  ]
+}
